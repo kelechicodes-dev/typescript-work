@@ -1,25 +1,38 @@
+
 # TypeScript Learning Journey
 
-This repository contains my TypeScript practice exercises as I learn software development and improve my programming skills.
+Welcome! 👋
 
-## 📚 Topics Covered
-- Variables and Data Types
-- Functions
-- Type Annotations
-- Basic TypeScript Syntax
+This repository contains my TypeScript practice exercises and personal projects as I learn software development.
 
-## 🛠️ Technologies Used
+## 🚀 Projects
+
+### 🧮 Kelechi Calculator
+A browser-based calculator built with HTML and TypeScript.
+
+Features:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Clear button
+- Input validation (coming soon)
+
+## 📚 Practice Files
+
+- day1.ts
+- day2.ts
+- extra.ts
+
+## 🛠 Technologies
+
 - TypeScript
-- Node.js
-- Visual Studio Code
+- HTML
 - Git
 - GitHub
+- Node.js
+- Visual Studio Code
 
-## 📁 Files
-- `day1.ts`
-- `day2.ts`
-- `extra.ts`
-- `calculator.ts` — A calculator app with add, subtract, multiply, and divide, including input validation and a clear button
+## 🎯 Goal
 
-## 🚀 About
-I created this repository to document my progress while learning TypeScript. I will continue updating it as I complete more lessons and build new projects.
+I will continue updating this repository as I build more projects and improve my software development skills.
