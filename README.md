@@ -15,10 +15,11 @@ This repository contains my TypeScript practice exercises as I learn software de
 - Git
 - GitHub
 
-## 📂 Files
+## 📁 Files
 - `day1.ts`
 - `day2.ts`
 - `extra.ts`
+- `calculator.ts` — A calculator app with add, subtract, multiply, and divide, including input validation and a clear button
 
 ## 🚀 About
 I created this repository to document my progress while learning TypeScript. I will continue updating it as I complete more lessons and build new projects.
