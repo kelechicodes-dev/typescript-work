@@ -16,7 +16,7 @@ addBtn!.addEventListener("click", function() {
     return;
   }
 
-  let sum = num1 + num2;
+  let sum = Math.round((num1 + num2) * 100) / 100;
   resultDisplay!.innerHTML = "Result: " + sum;
 });
 
@@ -29,7 +29,7 @@ subBtn!.addEventListener("click", function() {
     return;
   }
 
-  let difference = num1 - num2;
+ let difference = Math.round((num1 - num2) * 100) / 100;
   resultDisplay!.innerHTML = "Result: " + difference;
 });
 
@@ -42,7 +42,7 @@ mulBtn!.addEventListener("click", function() {
     return;
   }
 
-  let product = num1 * num2;
+ let product = Math.round((num1 * num2) * 100) / 100;
   resultDisplay!.innerHTML = "Result: " + product;
 });
 
@@ -60,7 +60,7 @@ divBtn!.addEventListener("click", function() {
     return;
   }
 
-  let quotient = num1 / num2;
+ let quotient = Math.round((num1 / num2) * 100) / 100;
   resultDisplay!.innerHTML = "Result: " + quotient;
 });
 const clearBtn = document.getElementById("clearBtn");
@@ -69,4 +69,9 @@ clearBtn!.addEventListener("click", function() {
   num1Input.value = "";
   num2Input.value = "";
   resultDisplay!.innerHTML = "Result: ";
+});
+num2Input.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    addBtn!.click();
+  }
 });

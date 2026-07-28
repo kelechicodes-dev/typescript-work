@@ -1,6 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head><title>Calculator</title></head>
+<head>
+  <title>Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: 50px auto;
+      text-align: center;
+      background-color: #f4f4f4;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    input {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+      width: 100px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 18px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #clearBtn {
+      background-color: #f44336;
+    }
+    #clearBtn:hover {
+      background-color: #da190b;
+    }
+    #result {
+      font-size: 24px;
+      color: #333;
+    }
+  </style>
+</head>
 <body>
   <h1>Kelechi Calculator</h1>
   <input type="number" id="num1" placeholder="First number">
