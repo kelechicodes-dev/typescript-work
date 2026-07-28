@@ -16,8 +16,7 @@ Features:
 - Multiplication
 - Division
 - Clear button
-- Input validation (coming soon)
-
+- Input validation (empty fields & divide-by-zero handling)
 ## 📚 Practice Files
 
 - day1.ts
